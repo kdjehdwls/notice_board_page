@@ -14,7 +14,6 @@ $query = "INSERT INTO board (number, title, content, date, hit, id, password)
         values(null,'$title', '$content', '$date', 0, '$id', '$pw')";
 
 
-//$result = $connect->query($query);
 $result = db_insert($query);
 if ($result) {
 ?> <script>

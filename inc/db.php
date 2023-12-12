@@ -46,3 +46,4 @@ function db_insert($query, $param = array())
         $pdo = null;
     }
 }
+?>
