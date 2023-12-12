@@ -14,7 +14,7 @@ DB를 활용한 게시판 기능 구현<br/>
 
 ## 주요기능 및 설명
 - index.php : 글목록 화면<br/>
-- db.php : db 연결<br/>
+- inc/db.php : db 연결<br/>
 - write.php : 글쓰기<br/>
 - write_func.php : 글쓰기 db저장 기능<br/>
 - read.php : 글조회 화면<br/>
